@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<style type="text/css">
+
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    /* Prevent WebKit and Windows mobile changing default text sizes */
+  
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    /* Remove spacing between tables in Outlook 2007 and up */
+
+    img { -ms-interpolation-mode: bicubic; }
+    /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    /* ---------------------- */
+    /* TABLE HIGHLIGHT STYLES */
+    /* ---------------------- */
+
+    /* FIRST TABLE: Highlights the entire table row when hovering over the first column */
+    /* These styles targets Gmail and Yahoo! email clients */
+    .row1:hover, .row1:hover + td, .row1:hover + td + td, .row1:hover + td + td + td,
+    .row2:hover, .row2:hover + td, .row2:hover + td + td, .row2:hover + td + td + td,
+    .row3:hover, .row3:hover + td, .row3:hover + td + td, .row3:hover + td + td + td,
+    .row4:hover, .row4:hover + td, .row4:hover + td + td, .row4:hover + td + td + td,
+    .row5:hover, .row5:hover + td, .row5:hover + td + td, .row5:hover + td + td + td,
+    .row6:hover, .row6:hover + td, .row6:hover + td + td, .row6:hover + td + td + td,
+    /* Following code highlights individual table cells */
+    .row1 + td:hover, .row1 + td + td:hover, .row1 + td + td + td:hover,
+    .row2 + td:hover, .row2 + td + td:hover, .row2 + td + td + td:hover,
+    .row3 + td:hover, .row3 + td + td:hover, .row3 + td + td + td:hover,
+    .row4 + td:hover, .row4 + td + td:hover, .row4 + td + td + td:hover,
+    .row5 + td:hover, .row5 + td + td:hover, .row5 + td + td + td:hover,
+    .row6 + td:hover, .row6 + td + td:hover, .row6 + td + td + td:hover {
+        background-color: #fb7d7a !important;
+    }
+
+    /* Specific styles for Outlook.com */
+    /* For Outlook.com, the class must be followed by an HTML element; cannot be class:hover or id:hover */
+    .outlookRow1 td:hover,
+    .outlookRow2 td:hover,
+    .outlookRow3 td:hover,
+    .outlookRow4 td:hover,
+    .outlookRow5 td:hover,
+    .outlookRow6 td:hover {
+        background-color: #fb7d7a !important;
+    }
+
+</style>
+</head>
+
+    <body bgcolor="#ffffff" style="margin: 0 !important; padding: 0 !important; background-color: #ffffff;">
+        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+
+            <!-- TABLE -->
+            <tr>
+                <td align="left" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 40px 0 40px 0; width: 100%;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600">
+
+
+                        <!-- TABLE HEADING -->
+                        <tr>
+                            <td align="center" valign="middle" width="96" style="color: #000000; font-weight: 300; font-size: 12px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 96px;">&nbsp;</td>
+                            <td align="center" valign="middle" width="168" style="background-color: #fb7d7a; border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;">Column #1</td>
+                            <td align="center" valign="middle" width="168" style="background-color: #fb7d7a; border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;">Column #2</td>
+                            <td align="center" valign="middle" width="168" style="background-color: #fb7d7a; border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;">Column #3</td>
+                        </tr>
+                        <!-- end table heading -->
+
+
+                        <!-- ROW #1 -->
+                        <tr class="outlookRow1">
+                            <!-- The empty links in the following table cells allows users in iOS to "touch" and highlight each cell -->
+                            <td class="row1" align="center" valign="middle" width="96" style="border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 96px;"><a href="#" style="color: #000000; text-decoration: none;">Row #1</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">123</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">456</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">789</a></td>
+                        </tr>
+                        <!-- end row #1 -->
+
+
+                        <!-- ROW #2 -->
+                        <tr class="outlookRow2">
+                            <td class="row2" align="center" valign="middle" width="96" style="border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 96px;"><a href="#" style="color: #000000; text-decoration: none;">Row #2</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">240,544</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">137,832</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">558,130</a></td>
+                        </tr>
+                        <!-- end row #2 -->
+
+
+                        <!-- ROW #3 -->
+                        <tr class="outlookRow3">
+                            <td class="row3" align="center" valign="middle" width="96" style="border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 96px;"><a href="#" style="color: #000000; text-decoration: none;">Row #3</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">18.47%</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">18.47%</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">18.47%</a></td>
+                        </tr>
+                        <!-- end row #3 -->
+
+
+                        <!-- ROW #4 -->
+                        <tr class="outlookRow4">
+                            <td class="row4" align="center" valign="middle" width="96" style="border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 96px;"><a href="#" style="color: #000000; text-decoration: none;">Row #4</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">0.47%</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">0.17%</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">0.27%</a></td>
+                        </tr>
+                        <!-- end row #4 -->
+
+
+                        <!-- ROW #5 -->
+                        <tr class="outlookRow5">
+                            <td class="row5" align="center" valign="middle" width="96" style="border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 96px;"><a href="#" style="color: #000000; text-decoration: none;">Row #5</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">18</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">47</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">17</a></td>
+                        </tr>
+                        <!-- end row #5 -->
+
+
+                        <!-- ROW #6 -->
+                        <tr class="outlookRow6">
+                            <td class="row6" align="center" valign="middle" width="96" style="border: 1px solid #828282; color: #000000; font-weight: 600; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 96px;"><a href="#" style="color: #000000; text-decoration: none;">Row #6</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">$1,348.47</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">$12,118.47</a></td>
+                            <td align="center" valign="middle" width="168" style="border: 1px solid #828282; color: #000000; font-weight: 300; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 10px 0; width: 168px;"><a href="#" style="color: #000000; text-decoration: none;">$1,831.47</a></td>
+                        </tr>
+                        <!-- end row #6 -->
+
+
+                    </table>
+                </td>
+            </tr>
+            <!-- end table -->
+
+        </table>
+    </body>
+</html>
