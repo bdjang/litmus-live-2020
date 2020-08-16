@@ -4,11 +4,9 @@
 
 ## Background
 
-This repo is a resource for the Litmus Live presentation I gave in September 2020. It contains code samples for horizontal data bars, vertical data bars, data tables, and a sample email campaign report.
+This repo serves as a resource for the 2020 Litmus Live Week presentation. It contains code samples for horizontal data bars, vertical data bars, data tables, and a sample email campaign report.
 
 ## Additional Resources/Links
-
-Below are repos I worked on prior to assembling this presentation.
 
 * [Data Bars in Email Templates](https://github.com/bdjang/data-bars-email-templates)
 * [Vertical Data Bars in Email Templates](https://github.com/bdjang/vertical-bars-email-templates)
