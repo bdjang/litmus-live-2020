@@ -1,5 +1,7 @@
 # Dropping the `<img>` Tag: Data Visualization Without Images
 
+* [Litmus Live Week](https://www.litmus.com/conference/week/)
+
 ## Background
 
 This repo is a resource for my Litmus Live Week 2020 presentation. It contains code samples for horizontal data bars, progress bars, vertical data bars, data tables, and a sample email campaign report.
