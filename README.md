@@ -4,7 +4,7 @@
 
 ## Background
 
-This repo is a resource for my Litmus Live Week 2020 presentation. It contains code samples for horizontal data bars, progress bars, vertical data bars, data tables, and a sample email campaign report.
+This repo contains a PDF file of my Litmus Live Week 2020 presentation slides, a sample email campaign report, and code samples for different types of data visualization for email (horizontal/vertical data bars, data tables, and progress bars).
 
 ## Additional Resources/Links
 
